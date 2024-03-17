@@ -1,0 +1,144 @@
+@charset "UTF-8";
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "DM Sans", sans-serif;
+}
+
+.navbar {
+  --bs-navbar-nav-link-padding-x: 1.2rem;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  outline: 0;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+  box-shadow: none !important;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+.bg-primary {
+  background-color: #006837 !important;
+}
+
+.border-block {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+@media (max-width: 768px) {
+  .border-block {
+    border-left: 0;
+    border-right: 0;
+  }
+}
+
+.join-the-team {
+  background: rgb(0, 105, 56);
+  background: linear-gradient(151deg, rgb(0, 105, 56) 35%, rgb(51, 162, 66) 100%);
+}
+@media (max-width: 768px) {
+  .join-the-team {
+    padding: 100px 0;
+  }
+}
+.join-the-team h1 {
+  background: #00267a;
+  font-size: 50px;
+}
+@media (max-width: 768px) {
+  .join-the-team h1 {
+    font-size: 30px;
+  }
+}
+.join-the-team h2 {
+  font-size: 40px;
+}
+@media (max-width: 768px) {
+  .join-the-team h2 {
+    font-size: 30px;
+  }
+}
+.join-the-team h4 {
+  font-size: 30px;
+}
+@media (max-width: 768px) {
+  .join-the-team h4 {
+    font-size: 24px;
+  }
+}
+
+.title-xl {
+  color: #00267a;
+  font-weight: 900;
+  font-size: 70px;
+}
+@media (max-width: 768px) {
+  .title-xl {
+    font-size: 34px;
+  }
+}
+
+.card {
+  background-clip: padding-box; /* !importanté */
+  border: solid 2px transparent; /* !importanté */
+  border-radius: 1em;
+  height: 100%;
+}
+.card img {
+  border-radius: 1em;
+  height: 250px;
+  object-fit: cover;
+}
+.card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -2px; /* !importanté */
+  border-radius: inherit; /* !importanté */
+  background: linear-gradient(to right, #006a38, #299340);
+}
+.card a {
+  text-decoration: none;
+  background: -webkit-linear-gradient(rgb(0, 105, 56) 35%, rgb(51, 162, 66) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-primary {
+  background: rgb(0, 105, 56);
+  background: linear-gradient(151deg, rgb(0, 105, 56) 35%, rgb(51, 162, 66) 100%);
+}
+
+.top-nav {
+  background: rgb(0, 105, 56);
+  background: linear-gradient(151deg, rgb(0, 105, 56) 35%, rgb(51, 162, 66) 100%);
+}
+.top-nav .navbar-brand img {
+  height: 65px;
+}
+.top-nav .navbar-nav .nav-item .nav-link {
+  color: white;
+}/*# sourceMappingURL=styles.css.map */
