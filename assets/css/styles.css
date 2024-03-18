@@ -97,6 +97,18 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.title-lg {
+  color: #00267a;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: normal;
+}
+@media (max-width: 768px) {
+  .title-lg {
+    font-size: 34px;
+  }
+}
+
 .card {
   background-clip: padding-box; /* !importanté */
   border: solid 2px transparent; /* !importanté */
@@ -128,6 +140,11 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
+  background: rgb(0, 105, 56);
+  background: linear-gradient(151deg, rgb(0, 105, 56) 35%, rgb(51, 162, 66) 100%);
+}
+
+footer {
   background: rgb(0, 105, 56);
   background: linear-gradient(151deg, rgb(0, 105, 56) 35%, rgb(51, 162, 66) 100%);
 }
