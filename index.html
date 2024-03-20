@@ -16,7 +16,7 @@
         <div class="">
             <nav class="navbar navbar-expand-lg top-nav">
             <div class="container">
-                <a class="navbar-brand p-0" href="/index.html">
+                <a class="navbar-brand p-0" href="index.html">
                     <img src="./assets/images/logo.png" alt="turdetail logo">
                 </a>
                 <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +25,7 @@
                 <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="#">About</a>
@@ -56,7 +56,19 @@
                 </ul>
                 <div class="d-flex">
                 
-                    <button class="btn btn-light" type="submit">Register</button>
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Register
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-start dropdown-menu-lg-end p-0 overflow-hidden">
+                            <li><a class="dropdown-item py-2" href="./client-signup.html">
+                                <img src="./assets/images/icons/client.svg" height="25" class="d-inline-block me-2" alt="">
+                                As Client</a></li>
+                            <li><a class="dropdown-item py-2" href="./client-signup.html">
+                                  <img src="./assets/images/icons/cleaner.svg" height="25" class="d-inline-block me-2" alt="">
+                                As Cleaner</a></li>
+                        </ul>
+                        </div>
                 </div>
                 </div>
             </div>
@@ -76,7 +88,8 @@
                                 </a>
                             </div>
                             <div>
-                                <h4 class="fw-bold">Request</h4>
+                                <h4 class="fw-bold d-flex align-items-center">
+                                    <img src="./assets/images/icons/arrow.png" width="20" class="d-inline-block me-2">Request</h4>
                                 <div>
                                     <img src="./assets/images/user1.png" class="w-100 rounded-3" alt="">
                                 </div>
@@ -85,7 +98,7 @@
                         </div>
                          <div class="col-11 col-md-4">
                             <div class="mt-4 pt-0 pt-lg-5">
-                                <h4 class="fw-bold">Cleaner Assigned</h4>
+                                <h4 class="fw-bold d-flex align-items-center">  <img src="./assets/images/icons/arrow.png" width="20" class="d-inline-block me-2">Cleaner Assigned</h4>
                                 <div>
                                     <img src="./assets/images/user1.png" class="w-100 rounded-3" alt="">
                                 </div>
@@ -102,7 +115,7 @@
                                 </a>
                             </div>
                                <div class="mt-4 mt-lg-0">
-                                <h4 class="fw-bold">Serviced</h4>
+                                <h4 class="fw-bold d-flex align-items-center">  <img src="./assets/images/icons/arrow.png" width="20" class="d-inline-block me-2">Serviced</h4>
                                 <div>
                                     <img src="./assets/images/user1.png" class="w-100 rounded-3" alt="">
                                 </div>
@@ -148,7 +161,7 @@
                         </div>
                           <div class="col-12 col-md-4">
                             <div class="h-100 d-flex align-items-end p-3 mt-1 mt-lg-0">
-                                <button class="btn btn-light fw-bold w-100">Proceed</button>
+                                <button class="btn btn-light fw-bold w-100 text-primary-emphasis">Proceed</button>
                             </div>
 
                         </div>
@@ -172,11 +185,11 @@
                         <div>
                             <h1 class="fw-bold text-white py-3 px-4 rounded-2 text-center"> <img src="./assets/images/icons/team.svg" class="d-inline" alt="team" width="40"> Join the team</h1>
 
-                            <h2 class="fw-bold my-3">Want to be a cleaner?</h2>
-                            <h4>Make easy money</h4>
-                            <h4>Flexible hours</h4>
-                            <h4>Do great work</h4>
-                             <h4>Get good tip</h4>
+                            <h2 class="fw-bold my-4">Want to be a cleaner?</h2>
+                            <h4 class="mb-4 d-flex align-items-center"> <img src="./assets/images/icons/arrow.png" width="20" class="d-inline-block me-3">Make easy money</h4>
+                            <h4 class="mb-4 d-flex align-items-center"> <img src="./assets/images/icons/arrow.png" width="20" class="d-inline-block me-3">Flexible hours</h4>
+                            <h4 class="mb-4 d-flex align-items-center"> <img src="./assets/images/icons/arrow.png" width="20" class="d-inline-block me-3">Do great work</h4>
+                             <h4 class="d-flex align-items-center"> <img src="./assets/images/icons/arrow.png" width="20" class="d-inline-block me-3">Get good tip</h4>
                         </div>
                     </div>
 

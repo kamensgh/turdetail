@@ -13,6 +13,10 @@ body {
   box-sizing: border-box;
 }
 
+.dropdown-item.active, .dropdown-item:active {
+  background: linear-gradient(151deg, rgb(3, 136, 74) 35%, rgb(51, 162, 66) 100%);
+}
+
 * {
   margin: 0;
   outline: 0;
