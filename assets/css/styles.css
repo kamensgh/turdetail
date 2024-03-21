@@ -9,6 +9,11 @@ body {
   --bs-navbar-nav-link-padding-x: 1.2rem;
 }
 
+.accordion {
+  --bs-accordion-border-color: #28a93c;
+  --bs-accordion-active-bg: #f5fffa ;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -162,4 +167,31 @@ footer {
 }
 .top-nav .navbar-nav .nav-item .nav-link {
   color: white;
+}
+
+.form-control, .form-select {
+  height: 60px;
+}
+.form-control:focus, .form-select:focus {
+  border-color: #2c9c3e;
+}
+
+.form-check-input:checked {
+  background-color: #2d9940;
+  border-color: #2d9940;
+}
+
+.login-page .login-page-inner {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.login-page .login-page-inner .nav-tabs .nav-link {
+  border: unset;
+  color: black;
+  padding: 16px 10px;
+}
+.login-page .login-page-inner .nav-tabs .nav-link.active, .login-page .login-page-inner .nav-tabs .nav-link:hover {
+  color: #06713b;
+  border-bottom: 2px solid green;
+  font-weight: bold;
 }/*# sourceMappingURL=styles.css.map */
