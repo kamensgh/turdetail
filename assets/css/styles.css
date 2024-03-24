@@ -189,13 +189,10 @@ footer {
   border-color: #2d9940;
 }
 
-.login-page {
-  height: 100dvh;
-  overflow: auto;
-}
 .login-page .login-page-inner {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 3rem;
 }
 .login-page .login-page-inner .nav-tabs .nav-link {
   border: unset;
