@@ -191,6 +191,7 @@ footer {
 
 .login-page {
   height: 100dvh;
+  overflow: auto;
 }
 .login-page .login-page-inner {
   background-color: white;
